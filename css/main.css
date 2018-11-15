@@ -1,26 +1,25 @@
 body { 
     font-family: 'Lato', sans-serif;
     font-weight: lighter;
-    color: rgba(75, 75, 75, 75, 1);
     border-left: solid 5px lightgrey;
     padding: 50px;
     margin: 50px;
 }
+h1 a, h4 {
+    color: goldenrod;
+}
 h1, h2, h3, h4, nav {
     font-weight: lighter;
-}
-h1 {
-    color: gold;
 }
 h2 {
     color: black;
 }
 h4 {
-    color: goldenrod;
     text-align: right;
 }
 a {
     text-decoration: none;
+    color: inherit;
 }
 a:visited { 
     text-decoration: none;
@@ -28,4 +27,7 @@ a:visited {
 }
 nav {
     color: #eeeeee;
+}
+article {
+    border-bottom: solid 1px lightgrey;
 }
