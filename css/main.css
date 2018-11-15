@@ -42,3 +42,6 @@ nav {
 article {
     border-bottom: solid 1px lightgrey;
 }
+footer p {
+    color: lightgrey;
+}
