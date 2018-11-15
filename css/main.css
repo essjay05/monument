@@ -21,6 +21,9 @@ h2, h3 {
 h2 {
     color: black;
 }
+h3 {
+    color: lightgrey;
+}
 h4 {
     text-align: right;
     color: goldenrod;
