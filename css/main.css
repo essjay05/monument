@@ -3,7 +3,7 @@ body {
     border-left: solid 5px lightgrey;
     padding: 50px;
     margin: 50px;
-    max-width: 80%;
+    max-width: 100%;
 }
 header nav {
     font-size: 20px;
@@ -17,7 +17,7 @@ h1 {
     font-size: 60px;
     text-decoration: none;
     font-weight: lighter;
-    color: goldenrod;
+    color: gold;
 }
 h2, h3 {
     font-weight: lighter;
@@ -25,14 +25,14 @@ h2, h3 {
 }
 h2 {
     color: black;
-    padding: 0px 0px -50px 0px;
+    margin: 10px 10px -30x 100px;
 }
 h3 {
     color: lightgrey;
 }
 h4 {
     text-align: right;
-    color: goldenrod;
+    color: gold;
 }
 a {
     text-decoration: none;
@@ -40,12 +40,11 @@ a {
 }
 a:visited { 
     text-decoration: none;
-    color: darkgrey;
 }
 article {
     border-bottom: solid 1px lightgrey;
 }
-p:first-letter {
+article p:first-letter {
     color: lightgrey; 
     float: left;
     font-family: "Lato";
@@ -58,7 +57,7 @@ p:first-letter {
 }
 footer nav {
     padding: 10px 0px;
-    color: goldenrod;
+    color: gold;
 }
 footer p {
     color: lightgrey;
