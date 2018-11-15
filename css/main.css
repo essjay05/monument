@@ -3,6 +3,7 @@ body {
     font-weight: 275;
     color: rgba(75, 75, 75, 75, 1);
     border-left: solid 5px lightgrey;
+    padding: 50px;
 }
 h1 {
     text-decoration: none;
@@ -21,10 +22,13 @@ a {
     text-decoration: none;
 }
 a:visited { 
-    text-decoration: none;
     color: darkgrey;
 }
 nav {
     font-weight: 250;
     color: #eeeeee;
+}
+header.nav.a {
+    color: lightgrey;
+    padding: 50px;
 }
