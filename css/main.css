@@ -8,10 +8,12 @@ body {
 header nav {
     font-size: 20px;
     color: lightgrey;
+    text-align: left;
 }
 header nav a {
-    padding: 0px 25px;
-    text-decoration: underline;
+    padding: 0px auto;
+    margin: auto 10px;
+    border-bottom: 2px solid lightgrey;
 }
 header h2 {
     margin: 15px auto 10px;
@@ -29,7 +31,7 @@ h2, h3 {
 }
 h2 {
     color: black;
-    margin: 0px auto;
+    margin: 10px auto;
 }
 h3 {
     color: lightgrey;
@@ -68,13 +70,16 @@ footer nav {
 }
 footer p {
     color: lightgrey;
-    padding: 15px 0px;
+    padding: 10px 0px;
 }
 img {
-    margin: auto;
-    max-width: auto;
+    margin: 0px;
+    max-width: 100%;
     padding: 10px;
 }
 a:hover {
     color: red;
+}
+p {
+    max-width: 100%;
 }
