@@ -1,7 +1,7 @@
 body { 
     font-family: 'Lato', sans-serif;
     border-left: solid 5px lightgrey;
-    padding: 50px;
+    padding: 25px;
     margin: 50px;
     max-width: 100%;
 }
@@ -25,7 +25,7 @@ h2, h3 {
 }
 h2 {
     color: black;
-    margin: 10px 10px -30x 100px;
+    margin: 0px 10px -30x 60px;
 }
 h3 {
     color: lightgrey;
@@ -43,6 +43,7 @@ a:visited {
 }
 article {
     border-bottom: solid 1px lightgrey;
+    margin-bottom: 5px;
 }
 article p:first-letter {
     color: lightgrey; 
@@ -50,14 +51,15 @@ article p:first-letter {
     font-family: "Lato";
     font-size: 75px;
     line-height: 60px;
-    initial-letter: 3;
+    initial-letter: 4;
     padding-top: 4px;
     padding-right: 8px;
     padding-left: 3px;
 }
 footer nav {
-    padding: 10px 0px;
+    padding: 25px 0px 5px;
     color: gold;
+    border: right solid 1px lightgrey;
 }
 footer p {
     color: lightgrey;
@@ -67,4 +69,7 @@ img {
     margin: auto;
     max-width: 100%;
     padding: 10px;
+}
+a:hover {
+    color: red;
 }
