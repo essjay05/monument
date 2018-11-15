@@ -1,17 +1,17 @@
 body { 
     font-family: 'Lato', sans-serif;
     border-left: solid 5px lightgrey;
-    padding: 25px;
-    margin: 50px;
+    padding: 50px;
+    margin: auto 50px;
     max-width: 100%;
 }
 header nav {
     font-size: 20px;
-    text-decoration: underline;
     color: lightgrey;
 }
 header nav a {
     padding: 0px 25px;
+    text-decoration: underline;
 }
 h1 {
     font-size: 60px;
@@ -67,7 +67,7 @@ footer p {
 }
 img {
     margin: auto;
-    max-width: 100%;
+    max-width: auto;
     padding: 10px;
 }
 a:hover {
