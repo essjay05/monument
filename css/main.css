@@ -2,15 +2,22 @@ body {
     font-family: 'Lato', sans-serif;
     font-weight: 275;
     color: rgba(75, 75, 75, 75, 1);
-    border-left: 100px darkgrey;
 }
 h1 {
     text-decoration: none;
     color: gold;
+    font-weight: lighter;
 }
-a { 
+h2 {
+    color: black;
+    font-weight: lighter;
+}
+h4 {
+    color: goldenrod;
+    text-align: right;
+}
+a {
     text-decoration: none;
-    color: darkgrey; 
 }
 a:visited { 
     text-decoration: none;
